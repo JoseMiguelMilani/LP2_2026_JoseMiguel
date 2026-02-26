@@ -22,7 +22,7 @@ public class ex13 {
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[0].length; j++) {
 
-                if (i < j) { // acima da diagonal principal
+                if (i < j) { 
                     soma += matriz[i][j];
                 }
             }
